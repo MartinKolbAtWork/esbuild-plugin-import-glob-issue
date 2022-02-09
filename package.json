@@ -1,0 +1,17 @@
+{
+  "name": "esbuild-test1",
+  "version": "1.0.0",
+  "description": "My first test with esbuild",
+  "main": "index.js",
+  "scripts": {
+    "build": "node esbuild.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.14.14"
+  },
+  "devDependencies": {
+    "esbuild-plugin-import-glob": "^0.1.1"
+  }
+}
